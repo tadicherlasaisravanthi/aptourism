@@ -1,0 +1,119 @@
+*{margin: 0;
+padding: 0;
+}
+
+.main{
+width:100%;
+background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("images/logo.jpg");
+background-position: center;
+background-size: cover;
+height: 109vh;
+
+}
+
+.nav{
+width: 1200px;
+height: 75px;
+margin: auto;
+}
+
+.icon{
+width: 200px;
+float: left;
+height: 70px;
+}
+
+.logo{
+color: #00fff2;
+font-size: 35px;
+font-family: Arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+margin-bottom: 0px;
+
+}
+
+.menu{
+width: 4oopx;
+float: left;
+height: 70px;
+margin-right: 70px
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ul li{
+list-style: none;
+margin-left: 60px;
+margin-top: 30px;
+font-size:14px;
+
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+color: #00fff2;
+}
+
+.form{
+   
+    width: 250px;
+    height: auto;
+    background: linear-gradient(to top, #fff(0, 0, 0, 0.5)50%, #fff(0,0,0,0.5)50%);
+    position: left;
+    top: 120px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    padding-top: 200px;
+
+}
+
+.form{
+   color: #fff;
+   border-radius: 10px;
+}
+.form label{
+   margin:5px;
+}
+
+.form btnn{
+   width: 100px;
+   height: 40px;
+   background: #ff7200;
+   border: 2px solid #ff7200;
+   margin-top: 13px;
+   color: #fff;
+   font-size: 15px;
+   border-bottom-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.btnn:focus{
+   outline: none;
+}
+
+.btnn{
+   width: 150px;
+   height: 25px;
+   background-color: #00fff2;
+   
+}
+
+.form input{
+   background-color: #00fff2;
+}
